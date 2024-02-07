@@ -18,7 +18,7 @@ namespace webApi.Controllers
         [HttpGet("")]
         public IEnumerable<string> Getstrings()
         {
-            return new string[] {"Atlanta","Albama" };
+            return new string[] {"Atlanta","Albama", "Chicago", "Boston" };
         }
     }
 }
