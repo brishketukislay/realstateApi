@@ -30,3 +30,4 @@ E:\Portfolio\webApi\obj\Debug\net8.0\refint\webApi.dll
 E:\Portfolio\webApi\obj\Debug\net8.0\webApi.pdb
 E:\Portfolio\webApi\obj\Debug\net8.0\webApi.genruntimeconfig.cache
 E:\Portfolio\webApi\obj\Debug\net8.0\ref\webApi.dll
+E:\Portfolio\webApi\obj\Debug\net8.0\webApi.sourcelink.json
