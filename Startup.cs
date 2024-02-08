@@ -21,7 +21,7 @@ namespace webApi
         {
             services.AddDbContext<DataContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("Default")));
-            
+             Console.WriteLine("Connection string: " + Configuration.GetConnectionString("Default")); // Add this line for logging
             services.AddControllers();
             services.AddCors();
         }
