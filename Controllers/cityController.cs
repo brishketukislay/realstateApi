@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace webApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")] // address -> /api/city
     [ApiController]
     public class cityController : ControllerBase
     {
@@ -18,7 +18,7 @@ namespace webApi.Controllers
         [HttpGet("")]
         public IEnumerable<string> Getstrings()
         {
-            return new string[] {"Atlanta","Albama", "Chicago", "Boston" };
+            return new string[] {"Atlanta","Albama", "Boston", "Chicago" };
         }
     }
 }
