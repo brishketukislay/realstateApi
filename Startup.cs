@@ -23,7 +23,7 @@ namespace webApi
                 options.UseSqlServer(Configuration.GetConnectionString("Default")));
              Console.WriteLine("Connection string: " + Configuration.GetConnectionString("Default")); // Add this line for logging
             services.AddControllers(); // register controllers
-            services.AddCors();
+            services.AddCors(); // add cors
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
