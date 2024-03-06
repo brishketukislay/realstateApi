@@ -29,7 +29,7 @@ namespace webApi
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             // Configure the HTTP request pipeline here
-            app.UseRouting();
+            app.UseRouting(); //routing
             app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
             app.UseAuthorization(); 
             app.UseEndpoints(endpoints =>
