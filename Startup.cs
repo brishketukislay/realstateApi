@@ -31,7 +31,7 @@ namespace webApi
             // Configure the HTTP request pipeline here
             app.UseRouting();
             app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
-            app.UseAuthorization(); // use authrisation
+            app.UseAuthorization(); 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
