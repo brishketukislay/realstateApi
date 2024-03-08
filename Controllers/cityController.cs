@@ -9,7 +9,7 @@ namespace webApi.Controllers
 {
     [Route("api/[controller]")] // api/city
     [ApiController]
-    public class cityController : ControllerBase
+    public class cityController : ControllerBase  //inherite controllerbase
     {
         public cityController()
         {
