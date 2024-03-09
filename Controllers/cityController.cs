@@ -16,7 +16,7 @@ namespace webApi.Controllers
         }
 
         [HttpGet("")]
-        public IEnumerable<string> Getstrings()
+        public IEnumerable<string> Getstrings() //iterable
         {
             return new string[] {"Atlanta","Albama","Austin", "Boston", "Chicago" }; // cities
         }
